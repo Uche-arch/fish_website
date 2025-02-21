@@ -1,0 +1,220 @@
+body {
+  background: #fdfdfd;
+}
+.web-info {
+  width: 70%;
+  margin: auto;
+}
+.testimonial {
+  width: 40%;
+  margin: auto;
+}
+.form {
+  width: 70%;
+  margin: auto;
+}
+.showcase {
+  padding: 70px 0 70px 0;
+  background: #0170b9;
+}
+.showcase-invest {
+  letter-spacing: 1px;
+}
+.btn {
+  background: rgba(247, 112, 143, 1);
+  padding: 10px 20px;
+}
+.btn:hover {
+  background: rgb(245, 162, 182);
+}
+.web-info h3,
+.Dickems {
+  color: #2160b8;
+}
+.web-info p {
+  font-size: 18px;
+}
+.farming-img {
+  width: 100px;
+  width: 100%;
+}
+.farming .row > div {
+  padding: 0;
+  width: 300px;
+}
+.error {
+  color: red;
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .farming .row > div {
+    padding: 0;
+    width: 300px;
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .accordion-body p,
+  .accordion-header button {
+    font-size: 13px;
+  }
+  .testimonial {
+    width: 80%;
+  }
+}
+.bg-farming {
+  background: rgb(245, 243, 243);
+}
+/* Change the background color of the header when collapsed */
+.accordion-button {
+  background-color: #fff; /* Blue background */
+  color: #03111f; /* White text */
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Change the background color of the header when active */
+.accordion-button:not(.collapsed) {
+  background-color: #fff; /* Darker blue when expanded */
+  color: #03111f;
+}
+
+/* Customize the accordion body */
+.accordion-body {
+  color: #333; /* Dark text */
+  font-size: 20px; /* Font size */
+  /* padding: 20px; Padding inside the body */
+}
+
+/* Add border-radius to accordion items */
+.accordion-item {
+  border-radius: 0px; /* Rounded corners on the whole item */
+  margin-bottom: 5px; /* Space between items */
+}
+
+/* Remove the focus outline */
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none; /* Remove the box shadow that appears on focus */
+}
+.form-btn {
+  border: 2px solid rgb(228, 98, 119);
+  background: white;
+}
+.form-btn:hover {
+  color: white;
+  background: rgb(216, 26, 58);
+}
+
+.sponsor-bg {
+  background: #03111f;
+}
+.sponsor p {
+  font-size: 18px;
+}
+.side-bar-links {
+  position: fixed;
+  top: 170px;
+  z-index: 10;
+}
+.side-bar-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.side-bar-links ul li img {
+  width: 50px;
+  padding: 10px;
+}
+.side-bar-links ul li {
+  background: white;
+}
+#facebook {
+  background: blue;
+}
+#x-icon {
+  background: black;
+}
+#linkedIn-icon {
+  background: blue;
+}
+#pinterest-icon {
+  background: rgb(209, 71, 71);
+}
+#whatsapp-icon {
+  background: green;
+}
+#sumo-icon {
+  background: blue;
+}
+.error {
+  color: red;
+}
+@media screen and (max-width: 430px) {
+  .logo img {
+    width: 80px;
+  }
+  .side-bar-links {
+    position: fixed;
+    top: 96vh;
+  }
+  .side-bar-links ul {
+    display: flex;
+    gap: 3px;
+  }
+  .side-bar-links ul li img {
+    width: 45px;
+    padding: 2px;
+  }
+  .side-bar-links ul li {
+    font-size: 15px;
+    margin-left: 1px;
+  }
+  .showcase {
+    padding: 30px 0 30px 0;
+  }
+  .showcase p {
+    font-size: 12px;
+  }
+  .showcase h1 {
+    font-size: 20px;
+  }
+  .showcase-vid {
+    display: none;
+  }
+  .web-info {
+    width: 100%;
+  }
+  .web-info p {
+    font-size: 15px;
+  }
+  .invest h2 {
+    font-size: 18px;
+  }
+  .invest img {
+    width: 50px;
+  }
+  .invest p {
+    font-size: 15px;
+  }
+  .btn {
+    background: rgba(247, 112, 143, 1);
+    padding: 5px 10px;
+  }
+  .farming h2 {
+    font-size: 22px;
+  }
+  .farming-img {
+    width: 40px;
+    height: auto;
+    width: 100%;
+  }
+  .bg-farming p, .benefits p, .carousel-item p {
+    font-size: 15px;
+  }
+  .testimonial img {
+    width: 100px;
+  }
+}
