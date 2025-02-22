@@ -441,13 +441,13 @@
                 <p class="border-bottom">
                     Fields marked with an <span class="text-danger">*</span> are required
                 </p>
-                <form action="" class="was-validated">
+                <form action="">
                     <div class=" my-4">
                         <label for="" class="form-label fw-bold">
                             First Name <span class="text-danger">*</span>
                         </label>
                         <input type="text" class="form-control" required id="first">
-                        <div class="invalid-feedback">Please fill out this field.</div>
+                        <span id="first-error"></span>
                     </div>
 
                     <div class=" mb-4">
@@ -455,7 +455,7 @@
                             Last Name <span class="text-danger">*</span>
                         </label>
                         <input type="text" class="form-control" required id="last">
-                        <div class="invalid-feedback">Please fill out this field.</div>
+                        <span id="last-error"></span>
                     </div>
 
                     <div class=" mb-4">
@@ -463,7 +463,7 @@
                             Email <span class="text-danger">*</span>
                         </label>
                         <input type="text" class="form-control" required id="email">
-                        <div class="invalid-feedback">Please fill out this field.</div>
+                        <span id="email-error"></span>
                     </div>
 
                     <div class=" mb-4">
@@ -478,11 +478,11 @@
                             City <span class="text-danger">*</span>
                         </label>
                         <input type="text" class="form-control" required id="city">
-                        <div class="invalid-feedback">Enter City name</div>
+                        <span id="city-error"></span>
                     </div>
 
                     <h5>How much do you want to invest? <span class="text-danger">*</span></h5>
-                    <small id="error-5"></small>
+                    <!-- <small id="error-5"></small> -->
                     <div class="form-check">
                         <input type="radio" class="form-check-input" name="unit">
                         <label for="" class="form-check-label">1 Unit (N50,000)</label>
@@ -508,16 +508,16 @@
                         <label for="" class="form-check-label">Above 20 Units (Over N1M)</label>
                     </div>
 
-                    <button class="form-btn px-5 btn mt-4 d-block">
+                    <button class="form-btn px-5 btn mt-4 d-block" onclick="validate()">
                         I WANT TO PAY
                     </button>
-                    <small id="error-6"></small>
+                    <small id="submit-error"></small>
                 </form>
             </section>
         </div>
     </main>
 
     <script src="./bootstrap-aid/js/bootstrap.bundle.js"></script>
-    <!-- <script src="index.js"></script> -->
+    <script src="index.js"></script>
 </body>
 </html>
