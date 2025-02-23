@@ -47,7 +47,7 @@ function validate() {
 function validatePhone (){
   let phone = document.getElementById("phone").value;
   if (phone.length !== 11) {
-    phoneError.innerHTML = "Enter valid phone number";
+    phoneError.innerHTML = "Enter valid phone number of 11 digits";
     return false
   }if (phone.length == 11){
     phoneError.innerHTML = "valid phone number"
