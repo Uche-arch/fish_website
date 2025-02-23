@@ -52,7 +52,5 @@ function validatePhone (){
   }if (phone.length == 11){
     phoneError.innerHTML = "valid phone number"
   }
-  //  else {
-  //   phoneError.innerHTML = "";
-  // }
+
 }
