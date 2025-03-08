@@ -17,6 +17,12 @@ body {
   padding: 70px 0 70px 0;
   background: #0170b9;
 }
+.showcase img {
+  height: 250px;
+  object-fit: cover;
+  border: none;
+  border-radius: 5px;
+}
 .showcase-invest {
   letter-spacing: 1px;
 }
@@ -45,6 +51,9 @@ body {
 .error {
   color: red;
   display: none;
+}
+span {
+  color: red;
 }
 @media screen and (max-width: 750px) {
   .farming .row > div {
